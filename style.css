@@ -25,15 +25,15 @@ main {
 
 /*стили блока Как вы можете помочь*/
 
-div {
+/*div {
     border: 1px solid greenyellow;
-}
+}*/
 
 .help-blocks {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: auto;
+    margin: 2rem auto 2rem auto;
     gap: 2rem;
 }
 
@@ -81,8 +81,10 @@ div {
     gap: 2rem;
 }
 
-@media (min-width:1024px) {
 
+.big-house-photo {
+    margin: auto  auto auto 13vw;
+}
 
 
 
@@ -138,11 +140,13 @@ a {
 .header-second {
     display: flex;
     height: 30vh;
-    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    /*background: linear-gradient(45deg, #EECFBA, #C5DDE8);*/
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-family: Roboto, sans-serif;
+    /*font-family: Roboto, sans-serif;*/
+    font-family: 'Amatic SC', cursive;
+    color: rgb(181, 65, 12);
     font-weight: bolder;
 font-size: 4rem;
 }
