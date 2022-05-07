@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 a {
     text-decoration: none;
     color: rgb(6, 84, 9);
@@ -7,10 +6,14 @@ a {
 /*стиль body*/
 
 body {
+    background: wheat;
+}
+
+main {
     width: 86vw;
     margin: auto;
     font-family: 'Roboto', sans-serif;
-    background: wheat;
+    
 }
 
 .title1 {
@@ -21,20 +24,17 @@ body {
 
 
 /*стили блока Как вы можете помочь*/
-.help {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    margin: 1em auto 2em auto;
-    padding: auto;
+
+div {
+    border: 1px solid greenyellow;
 }
 
 .help-blocks {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: auto;
-    padding: auto;
-    gap: 1em;
+    gap: 2rem;
 }
 
 .money {
@@ -67,7 +67,7 @@ body {
 
 .title-help {
     font-size: large;
-    color: rgb(173, 100, 10);
+    font-weight: 700;
 }
 
 .title2 {
@@ -83,7 +83,9 @@ body {
 
 @media (min-width:1024px) {
 
-=======
+
+
+
 .nav-menu-logo {
     display: grid;
     grid-template-areas: "header-logo menu-nav";
@@ -143,5 +145,4 @@ a {
     font-family: Roboto, sans-serif;
     font-weight: bolder;
 font-size: 4rem;
->>>>>>> main
 }
