@@ -1,3 +1,91 @@
+a {
+    text-decoration: none;
+    color: rgb(6, 84, 9);
+}
+
+/*стиль body*/
+
+body {
+    background: wheat;
+}
+
+main {
+    width: 86vw;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.title1 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(205, 75, 9);
+}
+
+
+/*стили блока Как вы можете помочь*/
+
+div {
+    border: 1px solid greenyellow;
+}
+
+.help-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    gap: 2rem;
+}
+
+.money {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 12rem;
+}
+
+.volunteer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 12rem;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 12rem;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 12rem;
+}
+
+.title-help {
+    font-size: large;
+    font-weight: 700;
+}
+
+.title2 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.media1 {
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+}
+
+@media (min-width:1024px) {
+
+
+
+
 .nav-menu-logo {
     display: grid;
     grid-template-areas: "header-logo menu-nav";
