@@ -3,15 +3,20 @@ a {
     color: rgb(6, 84, 9);
 }
 
+header {
+    background: linear-gradient(70deg, rgb(235, 152, 121), pink);
+}
 /*стиль body*/
 
 body {
     background: wheat;
+    
 }
 
 main {
     margin: auto;
     font-family: 'Roboto', sans-serif;
+    width: 86vw;
     
 }
 
@@ -92,7 +97,6 @@ main {
     grid-template-areas: "header-logo menu-nav";
     grid-template-columns: 2fr 4fr;
     grid-template-rows: 20vh;
-    background: wheat;
 }
 
 .header-logo {
@@ -172,7 +176,7 @@ font-size: 3rem;
 }
 
 footer {
-    background: wheat;
+    background: linear-gradient(70deg, rgb(235, 152, 121), pink);
     height: 25vh;
     display: flex;
     justify-content: space-around;
