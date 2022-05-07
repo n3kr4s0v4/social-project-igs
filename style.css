@@ -146,3 +146,36 @@ a {
     font-weight: bolder;
 font-size: 4rem;
 }
+
+.cats-house {
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+.header-img-cats{
+display: flex;
+height: 30vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+font-size: 3rem;
+}
+
+.img-cats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer {
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+font-size: 2rem;
+    font-family: Roboto, sans-serif;
+}
