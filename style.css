@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 a {
     text-decoration: none;
     color: rgb(6, 84, 9);
@@ -82,4 +83,65 @@ body {
 
 @media (min-width:1024px) {
 
+=======
+.nav-menu-logo {
+    display: grid;
+    grid-template-areas: "header-logo menu-nav";
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 20vh;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+.header-logo {
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+
+.img-logo {
+grid-area: img-logo;
+display: flex;
+width: 10vw;
+height: 20vh;
+}
+
+.header-main{
+display: flex;
+grid-area: header-main;
+text-align: center;
+align-items: center;
+justify-content: center;
+font-family: Roboto, sans-serif;
+font-weight: bolder;
+font-size: 2rem;
+width: 40%;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    grid-area: menu-nav;
+    text-align: center;
+    align-items: center;
+font-size: 2rem;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(3, 33, 55);
+}
+
+.header-second {
+    display: flex;
+    height: 30vh;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+font-size: 4rem;
+>>>>>>> main
 }
